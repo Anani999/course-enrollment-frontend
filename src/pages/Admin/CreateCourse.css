@@ -1,0 +1,252 @@
+.create-course{
+    position: relative;
+    width:904px;
+    height:742px;
+    padding: 10px;
+}
+
+.visible{
+    display: block;
+}
+
+.close-button-cc{
+    position:absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.close-button-cc img{
+    width: 25px;
+    height: 25px;
+}
+
+.create-course {
+    gap: 10px;
+    background-color: #303030;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.create-course h1 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight:500;
+}
+
+.content-up-cc {
+    margin-top:15px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.inputs-up-cc {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputs-up-cc input, .inputs-up-cc textarea{
+    all: unset;
+    background-color: var(--container-bg);
+    width: 390;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.inputs-up-cc textarea{
+    height: 140px;
+}
+
+.thumbnail-up-cc {
+    position: relative;
+}
+
+.thumbnail-up-cc img {
+    width: 381px;
+    height: 212px;
+    object-fit: cover;
+}
+
+.to-up-cc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 0, 0,0.6);
+}
+
+.to-up-cc .to-co{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.to-up-cc span {
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.cd-cc {
+    margin-top: 20px;
+}
+
+.cd-cc h2{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.ad-videos-cc {
+    background-color: var(--card-bg);
+    display: flex;
+    gap: 15px;
+    padding-block-end: 10px;
+    align-items: start;
+}
+
+.upload-video-cc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.video-thumb-cc {
+   position: relative;
+}
+
+.video-thumb-cc img {
+    max-width: 202px;
+    max-height: 111px;
+    object-fit: cover;
+}
+
+.video-thumb-cc .ov-video-thumb{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0,0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ov-video-thumb .co-vt-cc{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+.uv-inp-title,
+.uv-inp-vn {
+    flex: 1;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.uv-upld-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.uv-upld-btn:hover {
+    background-color: #218838;
+}
+
+.list-videos-cc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.vl-v {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.vl-vinfo {
+    flex: 1;
+}
+
+.vl-vinfo p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.v-info-down {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.vid-actns {
+    display: flex;
+    gap: 10px;
+}
+
+.vid-actn {
+    cursor: pointer;
+}
+
+.vid-actn img {
+    width: 16px;
+    height: 16px;
+}
+
+.create-cta-cc {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.create-cta-cc:hover {
+    background-color: #0056b3;
+}
+
+.close-button-cc {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.close-button-cc img {
+    width: 24px;
+    height: 24px;
+}
+
+.video-vidie-cc video{
+    height: 100px;
+    width: 150px;
+}

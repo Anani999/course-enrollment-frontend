@@ -1,0 +1,61 @@
+.join{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.join-cont{
+    background-color: var(--card-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 25px;
+    color: white;
+}
+
+.phone-email-form{
+    display: flex;
+    flex-direction: column;
+}
+.join-cont .phone-email-form input{
+    all: unset;
+    padding: 16px 0;
+    text-align: center;
+    background-color: #303030;
+    font-size: 20px;
+    width: 360px;
+}
+
+.phone-email-form button{
+    text-transform: uppercase;
+    width: 360px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding: 16px 0;
+    font-weight: bold;
+}
+.with-social-join{
+    display: flex;
+    flex-direction: column;
+}
+.with-social-join button{
+    width: 283px;
+    padding: 10px 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.with-social-join .google{
+    background-color: white;
+    color: black;
+}
+
+.with-social-join .github{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}

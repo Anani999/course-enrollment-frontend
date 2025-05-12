@@ -1,0 +1,120 @@
+.admin-dashboard{
+    background-color: var(--container-bg);
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.content-dashboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.up-dashboard, .low-left-dashboard, .low-right-dashboard{
+    background-color: var(--card-bg);
+    border-radius: 10px;
+}
+
+.up-dashboard{
+    width: 1108px;
+    height: 257px;
+}
+
+.low-dashboard{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.low-left-dashboard{
+    width: 450px;
+    height: 550px;
+}
+
+.low-right-dashboard{
+    width: 638px;
+    height: 550px;
+}
+
+.back-dashboard{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--card-bg);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.back-dashboard img{
+    width: 28px;
+    height: 28px;
+}
+
+.course-righd{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom:15px ;
+}
+
+.course-righd img{
+    width: 28px;
+    height: 28px;
+}
+
+.list-courses{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.course-in-list{
+    width: 262px;
+    height: 146px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.course-in-list .course-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.course-in-list .hover-course-div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    background-color: rgb(0, 0, 0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hover-course-div .hover-cont-cont{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.hover-cont-cont img{
+    height: 28px;
+    width: 28px;
+}

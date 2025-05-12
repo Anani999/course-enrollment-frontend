@@ -1,0 +1,38 @@
+:root{
+    --container-bg:#303030;
+    --card-bg:#3B3B3B;
+    --button-action:#009180;
+    --blue-card-bg:#003A4F;
+    --green-action:#004F18;
+    --text-color:#D1D1D1;
+    --green:#00FF2F;
+    --blue:#00C6DC;
+    --pink:#FF00E5;
+}
+
+.App{
+    background-color: #303030;
+}
+
+.c-container{
+    /* Rectangle 121 */
+    height: 53px;
+    background: #363636;
+    border-radius: 15px;
+}
+
+.l-container{
+    background-color: var(--container-bg);
+    padding: 17px;
+    color: #D2D2D2;
+    min-height: 100vh;
+    width: 100wh;
+}
+
+.blue{
+    color: var(--blue);
+}
+
+.block{
+    display: none;
+}

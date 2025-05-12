@@ -1,0 +1,60 @@
+.course-info{
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 1010px;
+    margin: 20px auto;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.course-info .course-info-content{
+    display: flex;
+    align-items: start;
+    margin: 10px;
+    gap: 20px;
+}
+
+.course-info-content img{
+    width: 800px;
+    border-radius: 10px;
+}
+
+.course-info-content .info-content-shortcuts{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    background-color: var(--container-bg);
+}
+
+.info-content-shortcuts .line-info-content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.info-content-shortcuts .circle-button{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(217, 246, 0);
+    border-radius: 50%;
+}
+
+.course-info-description{
+    background-color: var(--container-bg);
+    padding: 10px;
+}
+
+.action-button-course-info{
+    all: unset;
+    margin: 10px auto;
+    background-color: rgb(0, 105, 146);
+    color: white;
+    border-radius: 10px;
+    padding: 4px 10px;
+    cursor: pointer;
+}

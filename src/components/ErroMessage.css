@@ -1,0 +1,33 @@
+
+.errorMessage{
+    position: fixed;
+    top: -100px;
+    right: 100px;
+    padding: 10px 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 0, 0);
+    border-radius: 10px;
+    font-weight: bold;
+    transition: transform 1s ease;
+    z-index: 2;
+    animation: animate 1s ease;
+    transform: translateY(110px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.errorMessage span{
+    padding: 3px 5px;
+    background-color: rgba(232, 0, 0, 0.86,0.4);
+    border-radius: 50%;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+
+.errorMessage span:hover{
+    background-color: rgb(255, 255, 255);
+    color: red;
+}

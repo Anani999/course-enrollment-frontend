@@ -1,0 +1,247 @@
+.home2-cont{
+    background-color: var(--card-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 17px;
+    max-width: 973px;
+    height: 688px;
+    padding: 17px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.home2-cont .sub-div{
+    background-color: var(--container-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.sub-profile{
+    height: 129px;
+}
+
+
+.home2-profile{
+    width:95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home2-profile .left-profile{
+    display: flex;
+    gap: 10px;
+    align-items: start;
+}
+
+.left-profile img{
+    height: 86px;
+    object-fit: cover;
+    object-position: center;
+    width: 86px;
+    border-radius: 50%;
+}
+
+.left-profile .text-info{
+    margin-top:15px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    color: var(--text-color);
+}
+
+.text-info .bold-name{
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.text-info .profession {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.profession .green-circle{
+    width:12px;
+    height:12px;
+    background-color:var(--green);
+    border-radius: 50%;
+}
+
+.right-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.tasks-complete{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    justify-content: center;
+}
+
+.tasks-complete p{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.tasks-complete p img{
+    width: 19px;
+    height: 19px;
+}
+
+
+.present-dev{
+    height: 145px;
+}
+
+.content-present-dev{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.content-present-heading{
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.progress-div{
+    width: 90%;
+}
+
+.progress-bar{
+    width: 100%;
+    height: 6px;
+    border-radius: 6px;
+    background-color: #545454;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.progressed-bar{
+    height:5px;
+    border-radius: 6px;
+    width: 40%;
+    background-color: var(--green);
+}
+
+.progress-info{
+    float: right;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top:8px;
+}
+
+.progress-info .progress-info-item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.progress-info-item span{
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+ .progress-color{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: var(--pink);
+}
+
+.skill-cta{
+    background-color: var(--button-action);
+    border-radius: 2px;
+    display: flex;
+    color: white;
+    height: 28px;
+    width: 100px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.skill-cta:hover{
+    background-color: rgb(0, 106, 103);
+}
+.cta-item-icon{
+    width:18px;
+    height: 18px;
+    margin-left: 4px;
+}
+
+.cta-item{
+    display: flex;
+    align-items: center;
+}
+
+.cta-item span{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.quote-profile{
+    padding: 10px 0;
+}
+
+.quote-cont{
+    width: 554px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.quote-container-heading{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.quote-cont .quote{
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    position: relative;
+}
+
+.quote img{
+    width: 15px;
+    height:15px;
+    position: absolute;
+}
+
+.quote .quote-left{
+    left: -18px;
+    top: -4px;
+}
+
+.quote .quote-right{
+    right: 13px;
+    bottom: 0px;
+}
